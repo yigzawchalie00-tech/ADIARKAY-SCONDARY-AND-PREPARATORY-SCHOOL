@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adiarkay Secondary & Preparatory School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <div class="nav-crest">A</div>
+      <div class="nav-school-name"><span class="nav-school-short">ASPS</span><span class="nav-school-full">Adiarkay School</span></div>
+    </a>
+    <button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#academics" class="nav-link">Academics</a></li>
+      <li><a href="#admissions" class="nav-link">Admissions</a></li>
+      <li><a href="#news" class="nav-link">News</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#" class="nav-link nav-link-chat" onclick="toggleChat();return false;">Chat</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg-stripe"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-location">Adiarkay · North Gondar · Ethiopia</div>
+      <h1 class="hero-title">Shaping Minds.<br>Building Futures.</h1>
+      <p class="hero-sub">Adiarkay Secondary and Preparatory School — guiding students from secondary education through university preparatory studies in North Gondar.</p>
+      <div class="hero-actions">
+        <a href="#admissions" class="btn-primary">Apply for Admission</a>
+        <a href="#about" class="btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-crest-wrap">
+      <div class="hero-crest">
+        <div class="crest-ring crest-ring-outer"></div>
+        <div class="crest-ring crest-ring-inner"></div>
+        <div class="crest-center">
+          <div class="crest-school-name-circle">ADIARKAY SECONDARY AND PREPARATORY SCHOOL</div>
+          <div class="crest-emblem">🎓</div>
+          <div class="crest-year">NORTH GONDAR · ETHIOPIA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats" id="hero-stats">
+    <div class="stat"><span class="stat-n">1,200+</span><span class="stat-l">Students Enrolled</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-n">80+</span><span class="stat-l">Qualified Teachers</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-n">Grade 9–12</span><span class="stat-l">Secondary & Preparatory</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-n">95%</span><span class="stat-l">University Placement</span></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="two-col">
+      <div class="col-text">
+        <div class="section-eyebrow">About the School</div>
+        <h2 class="section-title">A Centre of Learning in North Gondar</h2>
+        <p>Adiarkay Secondary and Preparatory School stands as one of the leading educational institutions in the Adiarkay area of North Gondar Zone. We are committed to providing quality education that prepares students for national examinations and university entrance.</p>
+        <p style="margin-top:16px;">Our school nurtures intellectual curiosity, discipline, and character — values that carry students well beyond the classroom and into productive, meaningful lives.</p>
+        <div class="about-pillars">
+          <div class="pillar"><div class="pillar-icon">📘</div><div><div class="pillar-title">Academic Excellence</div><div class="pillar-desc">Rigorous curriculum aligned with Ethiopian national education standards</div></div></div>
+          <div class="pillar"><div class="pillar-icon">🤝</div><div><div class="pillar-title">Character Development</div><div class="pillar-desc">Building responsible, disciplined citizens who contribute to their community</div></div></div>
+          <div class="pillar"><div class="pillar-icon">🌍</div><div><div class="pillar-title">Community Rooted</div><div class="pillar-desc">Deeply connected to the Adiarkay community and North Gondar region</div></div></div>
+        </div>
+      </div>
+      <div class="col-visual">
+        <div class="about-card"><div class="about-card-header">Our Mission</div><p class="about-card-text" id="mission-text">"To provide every student with the knowledge, skills, and values needed to excel in university education and contribute meaningfully to the development of Ethiopia."</p></div>
+        <div class="about-card" style="margin-top:16px;"><div class="about-card-header">Our Vision</div><p class="about-card-text" id="vision-text">"To be the leading preparatory school in North Gondar, recognized for academic achievement, ethical leadership, and community service."</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="academics">
+  <div class="container">
+    <div class="section-eyebrow">Academics</div>
+    <h2 class="section-title">What We Teach</h2>
+    <p class="section-sub">Our curriculum spans both the secondary cycle (Grades 9–10) and the preparatory cycle (Grades 11–12), providing a strong foundation for university entrance examinations.</p>
+    <div class="academics-grid">
+      <div class="academic-track">
+        <div class="track-badge">Secondary</div><div class="track-grades">Grades 9–10</div>
+        <h3 class="track-title">General Secondary Education</h3>
+        <ul class="track-subjects"><li>Mathematics</li><li>English Language</li><li>Amharic</li><li>Physics</li><li>Chemistry</li><li>Biology</li><li>History & Civics</li><li>Geography</li><li>Physical Education</li></ul>
+      </div>
+      <div class="academic-track track-featured">
+        <div class="track-badge track-badge-prep">Preparatory</div><div class="track-grades">Grades 11–12</div>
+        <h3 class="track-title">University Preparatory</h3>
+        <div class="track-streams">
+          <div class="stream"><div class="stream-name">Natural Science</div><ul class="track-subjects"><li>Mathematics</li><li>Physics</li><li>Chemistry</li><li>Biology</li><li>English</li></ul></div>
+          <div class="stream"><div class="stream-name">Social Science</div><ul class="track-subjects"><li>Economics</li><li>History</li><li>Geography</li><li>Civics</li><li>English</li></ul></div>
+        </div>
+      </div>
+      <div class="academic-track">
+        <div class="track-badge" style="background:#e8f5e9;color:#2d6a4f;">Activities</div><div class="track-grades">Extracurricular</div>
+        <h3 class="track-title">Beyond the Classroom</h3>
+        <ul class="track-subjects"><li>Science Club</li><li>English Debate Club</li><li>Mathematics Olympiad</li><li>Sports & Athletics</li><li>Library & Reading</li><li>Community Service</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="admissions">
+  <div class="container">
+    <div class="section-eyebrow">Admissions</div>
+    <h2 class="section-title">Join Adiarkay School</h2>
+    <p class="section-sub">We welcome students committed to academic excellence. Admission is open to students completing Grade 8 (for secondary) and Grade 10 (for preparatory).</p>
+    <div class="steps-row">
+      <div class="step"><div class="step-num">1</div><div class="step-title">Check Eligibility</div><div class="step-desc">Completed Grade 8 for secondary. Grade 10 national exam results for preparatory.</div></div>
+      <div class="step-arrow">→</div>
+      <div class="step"><div class="step-num">2</div><div class="step-title">Collect Documents</div><div class="step-desc">Exam results, birth certificate, previous school ID, and two passport photos.</div></div>
+      <div class="step-arrow">→</div>
+      <div class="step"><div class="step-num">3</div><div class="step-title">Visit the School</div><div class="step-desc">Come to the registrar's office Monday–Friday, 8AM–5PM.</div></div>
+      <div class="step-arrow">→</div>
+      <div class="step"><div class="step-num">4</div><div class="step-title">Complete Registration</div><div class="step-desc">Submit documents, pay fee, and receive your student ID and timetable.</div></div>
+    </div>
+    <div class="admission-note"><div class="admission-note-icon">📅</div><div><strong>Registration Period:</strong> Registration opens following the release of national examination results each year.</div></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="news">
+  <div class="container">
+    <div class="section-eyebrow">News & Announcements</div>
+    <h2 class="section-title">Latest from the School</h2>
+    <div class="news-grid" id="news-grid">
+      <div class="news-card news-card-featured"><div class="news-tag">Announcement</div><h3 class="news-title">Loading...</h3></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-eyebrow">Gallery</div>
+    <h2 class="section-title">Life at Adiarkay School</h2>
+    <div class="gallery-grid" id="gallery-grid">
+      <div class="gallery-empty" id="gallery-empty"><div style="font-size:48px;margin-bottom:12px;">📸</div><p>Photos coming soon.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <div class="section-eyebrow">Contact</div>
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-row">
+      <div class="contact-info">
+        <div class="contact-item"><div class="contact-icon">📍</div><div><div class="contact-label">Location</div><div class="contact-value" id="contact-location">Adiarkay Town, North Gondar Zone<br>Amhara Region, Ethiopia</div></div></div>
+        <div class="contact-item"><div class="contact-icon">🕐</div><div><div class="contact-label">Office Hours</div><div class="contact-value" id="contact-hours">Monday – Friday<br>8:00 AM – 5:00 PM</div></div></div>
+        <div class="contact-item" id="contact-phone-wrap" style="display:none;"><div class="contact-icon">📞</div><div><div class="contact-label">Phone</div><div class="contact-value" id="contact-phone"></div></div></div>
+        <div class="contact-item" id="contact-email-wrap" style="display:none;"><div class="contact-icon">✉️</div><div><div class="contact-label">Email</div><div class="contact-value" id="contact-email"></div></div></div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group"><label>Your Name</label><input type="text" placeholder="Full name" required></div>
+            <div class="form-group"><label>Phone / Email</label><input type="text" placeholder="How to reach you" required></div>
+          </div>
+          <div class="form-group"><label>Subject</label><select><option>Admissions Inquiry</option><option>Academic Information</option><option>General Question</option><option>Other</option></select></div>
+          <div class="form-group"><label>Message</label><textarea rows="4" placeholder="Your message..."></textarea></div>
+          <button type="submit" class="btn-primary">Send Message</button>
+          <div id="contact-success" style="display:none;color:#2d6a4f;margin-top:10px;font-weight:600;">✓ Message sent! We'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand"><div class="footer-crest">A</div><div><div class="footer-school-name">Adiarkay Secondary &<br>Preparatory School</div><div class="footer-location" id="footer-location">Adiarkay, North Gondar, Ethiopia</div></div></div>
+      <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#academics">Academics</a><a href="#admissions">Admissions</a><a href="#news">News</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="footer-bottom">© Adiarkay Secondary and Preparatory School. All rights reserved.</div>
+  </div>
+</footer>
+
+<div class="chat-bubble" id="chat-bubble" onclick="toggleChat()"><span>💬</span><span class="chat-bubble-label">Ask Us</span></div>
+<div class="chat-window" id="chat-window" style="display:none;">
+  <div class="chat-header">
+    <div class="chat-header-info"><div class="chat-avatar">🎓</div><div><div class="chat-name">School Assistant</div><div class="chat-status">Adiarkay School</div></div></div>
+    <button class="chat-close" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <div class="chat-msg bot"><div class="chat-bubble-msg">Hello! Welcome to Adiarkay School. How can I help you today?</div></div>
+    <div class="chat-quick-replies" id="quick-replies">
+      <button onclick="quickAsk('How do I apply for admission?')">How to apply?</button>
+      <button onclick="quickAsk('What grades does the school offer?')">What grades?</button>
+      <button onclick="quickAsk('What subjects are taught?')">Subjects?</button>
+      <button onclick="quickAsk('Where is the school located?')">Location?</button>
+    </div>
+  </div>
+  <div class="chat-input-row">
+    <input type="text" id="chat-input" placeholder="Type your question..." onkeydown="if(event.key==='Enter') sendChat()">
+    <button class="chat-send" onclick="sendChat()">➤</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
